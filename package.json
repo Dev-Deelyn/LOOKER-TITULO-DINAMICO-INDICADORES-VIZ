@@ -1,0 +1,15 @@
+{
+  "name": "titulo-dinamico-viz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node ./scripts/concat-dscc.js"
+  },
+  "devDependencies": {
+    "@google/dscc": "^0.3.22"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

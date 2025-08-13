@@ -1,0 +1,25 @@
+{
+  "visualization": {
+    "name": "Título dinámico (genérico)",
+    "description": "Muestra el valor de la dimensión/métrica asignada. Si hay exactamente 1 valor distinto, lo muestra; en caso contrario muestra un título por defecto.",
+    "author": "Jeremías Fernández",
+    "version": "0.1.0",
+    "files": [
+      {
+        "path": "myViz.js",
+        "type": "js"
+      }
+    ],
+    "license": "Apache-2.0",
+    "sampleData": {
+      "tables": [
+        {
+          "id": "DEFAULT",
+          "rows": [
+            { "col0": ["TASA DE ESCOLARIZACIÓN"] }
+          ]
+        }
+      ]
+    }
+  }
+}
