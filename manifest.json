@@ -3,10 +3,10 @@
     "name": "Título dinámico (genérico)",
     "description": "Muestra el valor de la dimensión/métrica asignada. Si hay exactamente 1 valor distinto, lo muestra; en caso contrario muestra un título por defecto.",
     "author": "Jeremías Fernández",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "files": [
       {
-        "path": "https://cdn.jsdelivr.net/gh/Dev-Deelyn/LOOKER-TITULO-DINAMICO-INDICADORES-VIZ@main/myViz.js",
+        "path": "dist/myViz.js",
         "type": "js"
       }
     ],
@@ -16,11 +16,7 @@
         {
           "id": "DEFAULT",
           "rows": [
-            {
-              "col0": [
-                "TASA DE ESCOLARIZACIÓN"
-              ]
-            }
+            { "col0": ["TASA DE ESCOLARIZACIÓN"] }
           ]
         }
       ]
